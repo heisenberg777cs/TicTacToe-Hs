@@ -7,7 +7,12 @@ let gameOver = false;
 const restart = document.querySelector("#restart");
 let status = document.querySelector("#status");
 const cell = document.querySelectorAll(".cell");
-
+/*
+ * Project: Tic Tac Toe
+ * Author: Heisenberg
+ * Copyright © 2026 Heisenberg
+ * All rights reserved.
+ */
 cell.forEach((element, index) => {
     element.addEventListener("click", () => {
         if (board[index] === "" && !gameOver) {
